@@ -1,5 +1,5 @@
 import Home from "./pages/Home"
-import { createBrowserRouter, RouterProvider, Route, Link } from "react-router-dom"
+import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import Users from "./pages/Users"
 import Products from "./pages/Products"
 
