@@ -10,11 +10,15 @@ const App = () => {
 
 const Layout = () => {
   return (
-    <div className="main">
+    <div className="main bg-mainBg text-mainColor">
       <Navbar />
       <div className="flex">
-        <SideBar />
-        <Outlet />
+        <div className="w-[250px] py-[5px] px-[20px] border-r-2 border-softBg">
+          <SideBar />
+        </div>
+        <div className="px-[5px] py-[20px] w-[100%]">
+          <Outlet />
+        </div>
       </div>
       <Footer />
     </div>
