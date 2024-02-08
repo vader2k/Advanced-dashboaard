@@ -5,6 +5,7 @@ import Products from "./pages/Products"
 import Footer from "./components/Footer"
 import Navbar from "./components/Navbar"
 import SideBar from "./components/SideBar"
+import Login from "./pages/Login"
 const App = () => {
 
 const Layout = () => {
@@ -30,7 +31,7 @@ const Layout = () => {
           element:<Home />
         },
         {
-          path: '/user',
+          path: '/users',
           element:<Users />
         },
         {
@@ -39,12 +40,14 @@ const Layout = () => {
         }
       ]
     },
+    {
+      path: '/login',
+      element:<Login />
+    }
   ])
 
   return (
-    <RouterProvider router={router}>
-      
-    </RouterProvider>
+    <RouterProvider router={router}/>
   )
 }
 
