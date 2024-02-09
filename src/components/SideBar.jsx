@@ -4,7 +4,6 @@ import { sidebarItems } from '..'
 const SideBar = () => {
   return (
     <aside className="flex flex-col gap-6">
-      {/* main */}
       { sidebarItems.map((item) => (
         <div 
           key={item.id}
