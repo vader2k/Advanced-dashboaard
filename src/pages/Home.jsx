@@ -1,6 +1,7 @@
 import TopBox from "../components/TopBox"
 import ChartBox from "../components/ChartBox"
-import BarChart from "../components/BarChart"
+import BarChartBox from "../components/BarChartBox"
+
 
 const Home = () => {
   return (
@@ -66,11 +67,19 @@ const Home = () => {
       </div>
 
       <div className="border border-softBg p-5 rounded-xl min-h-[180px] h-auto">
-        <BarChart />
+        <BarChartBox
+          title={"Total Visit"}
+          color={'#8884d8'} 
+          keys={"view"}
+        />
       </div>
 
       <div className="border border-softBg p-5 rounded-xl min-h-[180px] h-auto">
-        box9
+        <BarChartBox
+          title={"Profit Earned"} 
+          color={"#FF8042"}
+          keys={"profit"}
+        />
       </div>
     </section>
   )
