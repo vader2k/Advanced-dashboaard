@@ -1,6 +1,7 @@
 import TopBox from "../components/TopBox"
 import ChartBox from "../components/ChartBox"
 import BarChartBox from "../components/BarChartBox"
+import PieChartBox from "../components/PieChartBox"
 
 
 const Home = () => {
@@ -35,7 +36,7 @@ const Home = () => {
       </div>
 
       <div className="border border-softBg p-5 rounded-xl min-h-[180px] h-auto row-span-3">
-        box4
+        <PieChartBox />
       </div>
 
       <div className="border border-softBg p-5 rounded-xl min-h-[180px] h-auto">
