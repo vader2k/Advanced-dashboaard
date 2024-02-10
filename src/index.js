@@ -193,3 +193,158 @@ export const topDealUsers = [
         amount: "1.008"
     },
 ]
+
+
+export const UserRows = [
+    {
+     id:1,
+     img: "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+     lastName: "Hubbard",
+     firstName: "Eula",
+     email:"kewez@gmail.com",
+     phone: "123 456 879",
+     verified: true,
+     createdAt: "01.02.2024"
+    },
+    {
+     id:2,
+     img: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+     lastName: "Manning",
+     firstName: "Stella",
+     email:"manningS@gmail.com",
+     phone: "123 456 879",
+     verified: true,
+     createdAt: "01.02.2024"
+    },
+    {
+     id:3,
+     img: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+     lastName: "Greer",
+     firstName: "Mary",
+     email:"greer@gmail.com",
+     phone: "123 456 879",
+     verified: true,
+     createdAt: "01.02.2024"
+    },
+    {
+     id:4,
+     img: "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+     lastName: "Williamson",
+     firstName: "Mildered",
+     email:"williams@gmail.com",
+     phone: "013 256 879",
+     verified: true,
+     createdAt: "01.02.20204"
+    },
+    {
+     id:5,
+     img: "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+     lastName: "Gross",
+     firstName: "Joe",
+     email:"grossgeb@yahoo.com",
+     phone: "123 456 879",
+     createdAt: "01.02.2024",
+     verified: false
+    },
+    {
+     id:6,
+     img: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+     lastName: "Sharp",
+     firstName: "Stacy",
+     email:"stacysSp@gmail.com",
+     phone: "103 346 479",
+     verified: true,
+     createdAt: "02.02.2024"
+    },
+    {
+     id:7,
+     img: "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+     lastName: "Gabriela",
+     firstName: "sylvia",
+     email:"gabriela@gmail.com",
+     phone: "023 146 579",
+     createdAt: "02.03.2024",
+     verified: false
+    },
+    {
+     id:8,
+     img: "https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+     lastName: "Kim",
+     firstName: "Marthas",
+     email:"kimmathias@gmail.com",
+     phone: "021 436 579",
+     createdAt: "02.03.2024",
+     verified: false
+    },
+    {
+     id:9,
+     img: "https://images.unsplash.com/photo-1528892952291-009c663ce843?q=80&w=2144&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+     lastName: "Jack",
+     firstName: "Fingham",
+     email:"jackimgfig@yahoo.com",
+     phone: "123 456 879",
+     createdAt: "03.02.2024",
+     verified: false
+    },
+    {
+     id:10,
+     img: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+     lastName: "Joseph",
+     firstName: "Mark",
+     email:"josephine@gmail.com",
+     phone: "023 153 479",
+     verified: true,
+     createdAt: "03.02.20204"
+    },
+    {
+     id:11,
+     img: "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+     lastName: "Rachel",
+     firstName: "McBeth",
+     email:"summarae@gmail.com",
+     phone: "420 256 379",
+     verified: true,
+     createdAt: "02.04.2024"
+    },
+    {
+     id:12,
+     img: "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+     lastName: "Tyler",
+     firstName: "Nix",
+     email:"tyleroriginal@hotmail.com",
+     phone: "451 056 329",
+     verified: true,
+     createdAt: "05.03.2024"
+    },
+    {
+     id:13,
+     img: "https://images.unsplash.com/photo-1632765854612-9b02b6ec2b15?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+     lastName: "Vera",
+     firstName: "vivian",
+     email:"veeve@gmail.com",
+     phone: "021 256 479",
+     createdAt: "05.04.2024",
+     verified: false
+    },
+    {
+     id:14,
+     img: "https://images.unsplash.com/photo-1519699047748-de8e457a634e?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+     lastName: "Tracy",
+     firstName: "Edera",
+     email:"Tracccee@gmail.com",
+     phone: "223 046 579",
+     verified: true,
+     createdAt: "05.03.2024"
+    },
+    {
+     id:15,
+     img: "https://images.unsplash.com/photo-1596075780750-81249df16d19?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+     lastName: "Mark",
+     firstName: "Forbes",
+     email:"Mark@gmail.com",
+     phone: "123 456 879",
+     createdAt: "06.05.2024",
+     verified: false
+    },
+   ];
+
