@@ -51,12 +51,12 @@ const Users = () => {
   return (
     <section className="p-5 w-full flex flex-col gap-5">
       <div className="flex w-full items-center gap-5">
-        <h1>Users</h1>
-        <button>Add New User</button>
+        <h1 className="text-white text-[2rem] font-medium">Users</h1>
+        <button className="bg-white text-[0.8rem] border rounded-xl text-black px-3 py-1">Add New User</button>
       </div>
       {/* data grid */}
       <div>
-        <DataTable rows={UserRows} columns={columns}/>
+        <DataTable slug="users" rows={UserRows} columns={columns}/>
       </div>
     </section>
   )

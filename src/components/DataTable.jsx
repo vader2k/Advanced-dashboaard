@@ -1,18 +1,42 @@
 import { DataGrid, GridToolbar } from "@mui/x-data-grid"
+import { Link } from "react-router-dom"
+
+import { LiaEditSolid } from "react-icons/lia";
+import { MdDeleteOutline } from "react-icons/md";
 
   
-const DataTable = ({ rows, columns }) => {
+const DataTable = ({ rows, columns, slug }) => {
+
+    const handleDelete = (id) => {
+        console.log(id+ "has been deleted")
+    }
+
+    const actionColumn = {
+        field: "action",
+        headerName: "Action",
+        width: 200,
+        renderCell: (params) => {
+            return (
+                <div className="flex gap-5 items-center text-[1.3rem]">
+                    <Link to={`/${slug}/${params.row.id}`}>
+                        <LiaEditSolid />
+                    </Link>
+                    <MdDeleteOutline onClick={()=> handleDelete(params.rows.id)}/>
+                </div>
+            )
+        }
+    }
 
   return (
     <div>
         <DataGrid
             className="bg-white p-5"
             rows={rows}
-            columns={columns}
+            columns={[...columns, actionColumn]}
             initialState={{
             pagination: {
                 paginationModel: {
-                pageSize: 5,
+                pageSize: 10,
                 },
             },
             }}

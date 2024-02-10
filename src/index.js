@@ -33,7 +33,7 @@ export const sidebarItems = [
         {
             id: 2,
             title: "profile",
-            path: '/users/1',
+            path: '/profile',
             icon: GoPerson 
         },
 
