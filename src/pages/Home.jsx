@@ -2,6 +2,7 @@ import TopBox from "../components/TopBox"
 import ChartBox from "../components/ChartBox"
 import BarChartBox from "../components/BarChartBox"
 import PieChartBox from "../components/PieChartBox"
+import BigChartBox from "../components/BigChartBox"
 
 
 const Home = () => {
@@ -64,7 +65,7 @@ const Home = () => {
       </div>
 
       <div className="border border-softBg p-5 rounded-xl min-h-[180px] h-auto row-span-2 col-span-2">
-        box7
+        <BigChartBox />
       </div>
 
       <div className="border border-softBg p-5 rounded-xl min-h-[180px] h-auto">
