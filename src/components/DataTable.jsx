@@ -19,9 +19,9 @@ const DataTable = ({ rows, columns, slug }) => {
             return (
                 <div className="flex gap-5 items-center text-[1.3rem]">
                     <Link to={`/${slug}/${params.row.id}`}>
-                        <LiaEditSolid />
+                        <LiaEditSolid className="text-green-500"/>
                     </Link>
-                    <MdDeleteOutline onClick={()=> handleDelete(params.rows.id)}/>
+                    <MdDeleteOutline className="text-red-500" onClick={()=> handleDelete(params.row.id)}/>
                 </div>
             )
         }

@@ -15,3 +15,6 @@
 .MuiDataGrid-toolbarContainer {
     flex-direction: row-reverse;
 }
+.modal {
+    background-color: rgba(0, 0, 0, 0.724);
+}
