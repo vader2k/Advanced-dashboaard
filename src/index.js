@@ -33,7 +33,7 @@ export const sidebarItems = [
         {
             id: 2,
             title: "profile",
-            path: '/profile',
+            path: '/user/1',
             icon: GoPerson 
         },
 
@@ -450,3 +450,168 @@ export const ProductsRows = [
         inStock: true,
     },
 ]
+
+
+export const singleProduct = {
+    id: 1,
+    title: "Playstation 5 Digital Edition",
+    img: "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    info: {
+        productId: "Ps55DF113343d",
+        color: "white",
+        price: "$250.99",
+        producer: "Sony",
+        export : "japan",
+    },
+    chart: {
+        datakeys: [
+            { name: "visits", color: "#82ca9d" },
+            { name: "orders", color: "#888d48" }
+        ],
+        data: [
+            {
+                name: "Sun",
+                visits: 4000,
+                orders: 2400,
+            },
+            {
+                name: "Mon",
+                visits: 3000,
+                orders: 1298,
+            },
+            {
+                name: "Tue",
+                visits: 2000,
+                orders: 3800,
+            },
+            {
+                name: "Wed",
+                visits: 2700,
+                orders: 3890,
+            },
+            {
+                name: "Thu",
+                visits: 1890,
+                orders: 4800,
+            },
+            {
+                name: "Fri",
+                visits: 2390,
+                orders: 3800,
+            },
+            {
+                name: "Sat",
+                visits: 3490,
+                orders: 4300,
+            },
+        ],
+    },
+    activities: [
+        {
+            text: "John Doe Purchased Playstation 5 Digital Edition",
+            time: "3 days ago"
+        },
+        {
+            text: "John Doe added Playstation 5 into their wishlist",
+            time: "1 week ago"
+        },
+        {
+            text: "Mike Doe Purchased Playstation 5 Digital Edition",
+            time: "2 weeks ago"
+        },
+        {
+            text: "Anna Doe reviewed the product",
+            time: "1 month ago"
+        },
+        {
+            text: "Michael Doe added Purchased Playstation 5 Digital Edition into their wishlist",
+            time: "1 month ago"
+        },
+        {
+            text: "Helen Doe reviewed the product",
+            time: "2 months ago"
+        },
+    ]
+}
+
+export const singleUser = {
+    id: 1,
+    title: "John Doe",
+    img: "https://images.pexels.com/photos/17397364/pexels-photo-17397364.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    info: {
+      username: "Johndoe99",
+      fullname: "John Doe",
+      email: "johndoe@gmail.com",
+      phone: "123 456 789",
+      status: "verified",
+    },
+    chart: {
+      dataKeys: [
+        { name: "visits", color: "#82ca9d" },
+        { name: "clicks", color: "#8884d8" },
+      ],
+      data: [
+        {
+          name: "Sun",
+          visits: 4000,
+          clicks: 2400,
+        },
+        {
+          name: "Mon",
+          visits: 3000,
+          clicks: 1398,
+        },
+        {
+          name: "Tue",
+          visits: 2000,
+          clicks: 3800,
+        },
+        {
+          name: "Wed",
+          visits: 2780,
+          clicks: 3908,
+        },
+        {
+          name: "Thu",
+          visits: 1890,
+          clicks: 4800,
+        },
+        {
+          name: "Fri",
+          visits: 2390,
+          clicks: 3800,
+        },
+        {
+          name: "Sat",
+          visits: 3490,
+          clicks: 4300,
+        },
+      ],
+    },
+    activities: [
+      {
+        text: "John Doe purchased Playstation 5 Digital Edition",
+        time: "3 day ago",
+      },
+      {
+        text: "John Doe added 3 items into their wishlist",
+        time: "1 week ago",
+      },
+      {
+        text: "John Doe purchased Sony Bravia KD-32w800",
+        time: "2 weeks ago",
+      },
+      {
+        text: "John Doe reviewed a product",
+        time: "1 month ago",
+      },
+      {
+        text: "John Doe added 1 items into their wishlist",
+        time: "1 month ago",
+      },
+      {
+        text: "John Doe reviewed a product",
+        time: "2 months ago",
+      },
+    ],
+  };

@@ -6,6 +6,8 @@ import Footer from "./components/Footer"
 import Navbar from "./components/Navbar"
 import SideBar from "./components/SideBar"
 import Login from "./pages/Login"
+import UserDetails from "./pages/UserDetails"
+import ProductDetails from "./pages/ProductDetails"
 const App = () => {
 
 const Layout = () => {
@@ -41,6 +43,14 @@ const Layout = () => {
         {
           path: '/products',
           element: <Products />
+        },
+        {
+          path: '/user/:id',
+          element: <UserDetails />
+        },
+        {
+          path: '/product/:id',
+          element: <ProductDetails />
         }
       ]
     },

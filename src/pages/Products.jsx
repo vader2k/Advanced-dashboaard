@@ -65,7 +65,7 @@ const Products = () => {
       </div>
       {/* data grid */}
       <div>
-        <DataTable slug="products" rows={ProductsRows} columns={columns}/>
+        <DataTable slug="product" rows={ProductsRows} columns={columns}/>
       </div>
       {
         open && <Add setOpen={setOpen} slug="product" columns={columns}/>
