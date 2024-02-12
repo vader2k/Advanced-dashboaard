@@ -36,14 +36,14 @@ const ChartBox = ({ title, number, link, percentage, varient, col, color, }) => 
       ];
 
   return (
-    <div className="flex h-[100%] w-full">
+    <div className="flex flex-col gap-5 sm:gap-0 sm:flex-row h-[100%] w-full">
         {/* box info */}
-        <div className="flex flex-col justify-between flex-[3]">
+        <div className="flex flex-col justify-between flex-[3] gap-3 sm:gap-0">
             <div className="flex items-center gap-3">
                 <FaChartPie className={`${varient}`}/>
-                <span className="text-[1.2rem] font-medium">{title}</span>
+                <span className=" text-[1rem] md:text-[1.2rem] font-medium">{title}</span>
             </div>
-            <p className="text-[2rem] font-bold">{number}</p>
+            <p className="text-[1.3rem] md:text-[2rem] font-bold">{number}</p>
             <Link to={'/'} className="text-purple-400">
                 {link}
             </Link>

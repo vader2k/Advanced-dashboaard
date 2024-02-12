@@ -8,7 +8,7 @@ const SideBar = () => {
         <div 
           key={item.id}
           className="flex flex-col gap-2">
-          <span className="text-[0.7rem] text-softColor">{item.title}</span>
+          <span className="text-[0.7rem] text-softColor hidden lg:block">{item.title}</span>
           {
            item.content.map((content) => (
             <Link 
@@ -16,7 +16,7 @@ const SideBar = () => {
               to={`${content.path}`}
               className="flex items-center gap-2 hover:bg-softBg p-2 rounded-md">
                 {<content.icon />}
-                <span>{content.title}</span>
+                <span className="hidden lg:block">{content.title}</span>
             </Link>
            )) 
           }

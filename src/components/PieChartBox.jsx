@@ -9,7 +9,7 @@ const data = [
 const PieChartBox = () => {
   return (
     <div className="h-full flex flex-col justify-between">
-        <h1 className="text-[2rem] pb-5 font-bold">Leads by Source</h1>
+        <h1 className="text-[1.4rem] sm:text-[2rem] pb-5 font-bold">Leads by Source</h1>
         <div className="flex justify-center items-center w-full h-full">
             <ResponsiveContainer width="99%" height={300}>
                 <PieChart >
@@ -33,7 +33,7 @@ const PieChartBox = () => {
                 </PieChart>
             </ResponsiveContainer>
         </div>
-        <div className="flex justify-between gap-[10px] text-[14px]">
+        <div className="flex justify-between gap-[10px] text-[14px] flex-wrap">
             {data.map(item => (
                 <div key={item.name} className="flex flex-col gap-5 items-center">
                     <div className="flex gap-3 items-center">

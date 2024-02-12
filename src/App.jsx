@@ -15,7 +15,7 @@ const Layout = () => {
     <div className="main bg-mainBg text-mainColor">
       <Navbar />
       <div className="flex">
-        <div className="w-[250px] py-[5px] px-[20px] border-r-2 border-softBg">
+        <div className="w-max lg:w-[250px] py-[5px] px-[20px] border-r-2 border-softBg">
           <SideBar />
         </div>
         <div className="px-[5px] py-[20px] w-[100%]">

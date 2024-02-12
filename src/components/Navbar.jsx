@@ -16,12 +16,12 @@ const Navbar = () => {
       </div>
 
     {/* icons, pictures and notification */}
-      <div className='flex items-center gap-10'>
+      <div className='flex items-center gap-5 lg:gap-10'>
         {/* icons */}
-        <div className='flex items-center gap-5 text-[1.5rem]'>
-          <CiSearch />
-          <RxDashboard />
-          <LiaExpandSolid />
+        <div className='flex items-center gap-5 text-[1.5rem] '>
+          <CiSearch className='hidden lg:flex'/>
+          <RxDashboard className='hidden lg:flex'/>
+          <LiaExpandSolid className='hidden lg:flex'/>
           <div className='relative'>
             <IoIosNotificationsOutline />
             <span className='absolute w-[20px] h-[20px] bg-red-500 flex items-center justify-center rounded-full top-[-13px] right-[-10px] text-[0.8rem]'>1</span>
@@ -35,7 +35,7 @@ const Navbar = () => {
         </div>
 
         {/* settings */}
-        <div className='text-[1.5rem]'>
+        <div className='text-[1.5rem] hidden lg:block'>
           <IoSettingsOutline />
         </div>
       </div>

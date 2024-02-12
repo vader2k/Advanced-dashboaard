@@ -4,14 +4,14 @@ import { Legend, Tooltip, Line, LineChart, ResponsiveContainer, XAxis, YAxis } f
 
 const Single = (props) => {
   return (
-    <div className="flex p-5">
+    <div className="flex px-3 sm:p-5 flex-col gap-[50px] xl:flex-row">
       {/* information */}
       <div className="flex-1">
         <div className="info">
-          <div className="flex items-center gap-[20px]">
-            { props.img && <img className="w-[100px] h-[100px] rounded-[20px] object-cover" src={props.img} alt="" />}
-            <h1 className="font-medium">{props.title}</h1>
-            <button>Update</button>
+          <div className="flex flex-col sm:flex-row items-center gap-[10px] sm:gap-[20px]">
+            { props.img && <img className=" sm:w-[100px] sm:h-[100px] rounded-[20px] object-cover" src={props.img} alt="" />}
+            <h1 className="font-medium sm:text-[1.3rem]">{props.title}</h1>
+            <button className="text-[0.9rem] border bg-white rounded-xl px-2 text-black">Update</button>
           </div>
 
           <div className="text-[18px]">
@@ -50,13 +50,13 @@ const Single = (props) => {
       </div>
 
       {/* activities */}
-      <div className="flex-1">
+      <div className="flex- w-full1">
         <h2 className="mb-[20px]">Latest Activities</h2>
        { props.activities && <ul>
           { props.activities.map((activity) => (
             <li key={activity.text} className="items relative w-[1px] pt-[50px] bg-orange-500">
-            <div className="min-w-[480px] p-4 bg-[#f45b6810]">
-              <p className="mb-[5px] ">{activity.text}</p>
+            <div className="w-full min-w-[300px] sm:min-w-[480px] p-4 bg-[#f45b6810]">
+              <p className="mb-[5px] text-[0.85rem] sm:text-[1rem]">{activity.text}</p>
               <time className="text-[12px]">{activity.time}</time>
             </div>
           </li>

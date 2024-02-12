@@ -28,7 +28,7 @@ const DataTable = ({ rows, columns, slug }) => {
     }
 
   return (
-    <div>
+    <div >
         <DataGrid
             className="bg-white p-5"
             rows={rows}

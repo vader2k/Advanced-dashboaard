@@ -7,12 +7,12 @@ import BigChartBox from "../components/BigChartBox"
 
 const Home = () => {
   return (
-    <section className="grid gap-5 grid-cols-4 px-5">
+    <section className="grid gap-5 xxl:grid-cols-4 xl:grid-cols-3 md:grid-cols-2 grid-cols-1 sm:px-5 px-3 grid-flow-dense">
       <div className="border border-softBg p-5 rounded-xl min-h-[180px] h-auto row-span-3">
         <TopBox />
       </div>
 
-      <div className="border border-softBg p-5 rounded-xl min-h-[180px] h-auto">
+      <div className="border border-softBg p-5 rounded-xl min-h-[120px] sm:min-h-[180px] h-auto">
         <ChartBox
           title={"Total Users"} 
           number={11.238}
@@ -24,7 +24,7 @@ const Home = () => {
         />
       </div>
 
-      <div className="border border-softBg p-5 rounded-xl min-h-[180px] h-auto">
+      <div className="border border-softBg p-5 rounded-xl min-h-[120px] sm:min-h-[180px]h-auto">
         <ChartBox 
           title={"Total Products"}
           number={238}
@@ -36,11 +36,11 @@ const Home = () => {
         />
       </div>
 
-      <div className="border border-softBg p-5 rounded-xl min-h-[180px] h-auto row-span-3">
+      <div className="border border-softBg p-5 rounded-xl mmin-h-[120px] sm:min-h-[180px] h-auto row-span-3">
         <PieChartBox />
       </div>
 
-      <div className="border border-softBg p-5 rounded-xl min-h-[180px] h-auto">
+      <div className="border border-softBg p-5 rounded-xl min-h-[120px] sm:min-h-[180px] h-auto">
         <ChartBox
          title={"Total Revenue"}
          number={"$56.432"}
@@ -52,7 +52,7 @@ const Home = () => {
         />
       </div>
       
-      <div className="border border-softBg p-5 rounded-xl min-h-[180px] h-auto">
+      <div className="border border-softBg p-5 rounded-xl min-h-[120px] sm:min-h-[180px] h-auto">
         <ChartBox 
           title={"Total Ratio"}
           number={2.6}
@@ -64,11 +64,11 @@ const Home = () => {
         />
       </div>
 
-      <div className="border border-softBg p-5 rounded-xl min-h-[180px] h-auto row-span-2 col-span-2">
+      <div className="border border-softBg p-5 rounded-xl min-h-[120px] sm:min-h-[180px] h-auto row-span-2 col-span-2 hidden md:block">
         <BigChartBox />
       </div>
 
-      <div className="border border-softBg p-5 rounded-xl min-h-[180px] h-auto">
+      <div className="border border-softBg p-5 rounded-xl min-h-[120px] sm:min-h-[180px] h-auto">
         <BarChartBox
           title={"Total Visit"}
           color={'#8884d8'} 
@@ -76,7 +76,7 @@ const Home = () => {
         />
       </div>
 
-      <div className="border border-softBg p-5 rounded-xl min-h-[180px] h-auto">
+      <div className="border border-softBg p-5 rounded-xl min-h-[120px] sm:min-h-[180px] h-auto">
         <BarChartBox
           title={"Profit Earned"} 
           color={"#FF8042"}

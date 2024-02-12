@@ -3,7 +3,7 @@ import { topDealUsers } from ".."
 const TopBox = () => {
   return (
     <div>
-        <h1 className="text-[2rem] font-bold pb-3">Top Deals</h1>
+        <h1 className="text-[1.4rem] sm:text-[2rem] font-bold pb-3">Top Deals</h1>
         <div className="w-full flex flex-col gap-5 py-5">
             {
                 topDealUsers.map(user => (
