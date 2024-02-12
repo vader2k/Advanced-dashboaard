@@ -1,3 +1,4 @@
+import { singleProduct } from ".."
 import Single from "../components/Single"
 
 const ProductDetails = () => {
@@ -5,7 +6,7 @@ const ProductDetails = () => {
   // fetch data and send to single component
   return (
     <div>
-      <Single />
+      <Single {...singleProduct}/>
     </div>
   )
 }
